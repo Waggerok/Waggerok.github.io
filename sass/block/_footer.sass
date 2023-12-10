@@ -1,0 +1,61 @@
+.footer
+    height: 630px
+    position: relative
+    &__info
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        width: 460px
+        height: 270px
+        background-color: $main-color
+        padding: 50px 68px 60px 68px
+        border-radius: 75px
+    &__address
+        margin-bottom: 36px
+        font-weight: 500
+        font-size: 20px
+        color: #ffffff
+        text-align: center
+        line-height: 20px
+    &__phone
+        display: block
+        color: #ffffff
+        font-weight: 700
+        line-height: 20px
+        font-size: 20px
+        margin-bottom: 38px
+        text-align: center
+        text-decoration: none
+        transition: 1s all
+        &:hover
+            color: #ffffff88
+            text-shadow: 1px 1px 5px white
+    &__social-item
+        display: flex
+        justify-content: center
+        align-content: center
+        width: 50px
+        height: 50px
+        border: 2px solid #ffffff7c
+        border-radius: 100%
+        margin: 0 15px
+        padding-top: 10px
+        transition: 1s all
+        img
+            height: 27px
+            transition: 1s all
+            &:hover
+                transition: 1s all
+                filter: drop-shadow(2px 2px 10px white)
+        &:hover
+            box-shadow: 2px 2px 10px white
+        &:active
+            scale: 0.8
+            border-color: #fff
+            
+    &__social
+        display: flex
+        justify-content: center
+        align-items: center
+        
